@@ -1,0 +1,16 @@
+Задание для самостоятельной проработки.
+Продвинутый уровень.
+1)  Создайте класс TextTransformer.
+Метод:
+● String transform(String text) — Переводит текст в верхний регистр. Пример hello→ HELLO
+2)   Создайте  класс  InverseTransformer  как  подкласс  TextTransformer.  Переопределите  метод  String 
+transform(String text) — Производит реверс текста. Пример hello → olleh
+3)   Создайте  класс  UpDownTransformer  как  подкласс  TextTransformer.  Переопределите  метод  String 
+transform(String text) — Каждая нечетная буква большая, четная маленькая. Пример hello → HeLlO
+4)  Создайте класс TextSaver.
+Поля:
+● TextTransformer transformer
+● File file
+Методы:
+● void  saveTextToFile(String  text)  —  Сначала  преобразует  одним  из  трансформеров  (поле 
+transformer) строку, после чего сохранить ее в файл(поле file).
