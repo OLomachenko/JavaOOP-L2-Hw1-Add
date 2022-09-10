@@ -1,2 +1,2 @@
-# JavaOOP-L2-Hw1-Add
+# JavaOOP Lesson 2 Homework 1 Advanced Level
 Программа TextTransformer
